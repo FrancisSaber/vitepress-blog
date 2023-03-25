@@ -3,8 +3,8 @@
     "vitepress": "1.0.0-alpha.61"
   },
   "scripts": {
-    "start": "vitepress dev",
-    "docs:dev": "vitepress dev",
+    "start": "vitepress dev docs",
+    "docs:dev": "vitepress  docs",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview --port 4173"
   }

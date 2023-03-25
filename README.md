@@ -1,3 +1,7 @@
+# 推送
+
+git push resposity master
+
 # 脚本
 
   <a href="https://github.com/FrancisSaber/SSG-Blog/blob/master/.github/workflows/deploy.yml">
