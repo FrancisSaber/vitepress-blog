@@ -4,8 +4,6 @@
 $ git push resposity master # reposity 仓库名 master分支名
 ```
 
-
-
 # 脚本
 
   <a href="https://github.com/FrancisSaber/SSG-Blog/blob/master/.github/workflows/deploy.yml">
@@ -15,6 +13,7 @@ $ git push resposity master # reposity 仓库名 master分支名
 # 文档
 
 [官网](https://vitepress.dev/)
+[参考](https://github.com/Jack-Star-T/vitePress)
 
 # 部署
 
@@ -35,17 +34,17 @@ $ git push resposity master # reposity 仓库名 master分支名
   >
   > - `vitepress`会根据`package.json`运行参数找项目入口，默认根目录，如果想修改可以在命令里修改
   >
-  > - 改为docs目录下
+  > - 改为 docs 目录下
   >
   >   ```json
   >   {
-  >       "script": {
-  >           "start": "vitepress dev docs",
-  >           "build": "vitepress build docs"
-  >       }
+  >     "script": {
+  >       "start": "vitepress dev docs",
+  >       "build": "vitepress build docs"
+  >     }
   >   }
   >   ```
   >
-  > - 
+  > -
 
-- 
+-

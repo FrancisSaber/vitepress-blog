@@ -17,8 +17,8 @@ export default defineConfig({
       {
         text: 'Typescript',
         items: [
-          { text: 'ts1', link: '/Typescript/TS-TYPE-CODE.md' },
-          { text: 'ts2', link: '/Typescript/深入理解Typescript.md' }
+          { text: '类型编程', link: '/Typescript/TS-TYPE-CODE.md' },
+          { text: '深入理解Typescript', link: '/Typescript/深入理解Typescript.md' }
           // { text: 'Markdown Examples', link: '/docs/articles/markdown-examples.md' },
           // { text: 'Runtime API Examples', link: '/api-examples' }
         ]
