@@ -5,19 +5,19 @@ export default defineConfig({
   title: "My Awesome Project",
   description: "A VitePress Site",
   // outDir: './dist',
-  // base: '/vitepress-blog/',
+  base: '/vitepress-blog/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Typescript', link: '/Typescript' }
+      { text: 'Typescript', link: '/Typescript/TS-TYPE-CODE.md' }
     ],
 
     sidebar: [
       {
         text: 'Typescript',
         items: [
-          { text: 'Home', link: '/Typescript/TS-TYPE-CODE.md' },
+          { text: 'ts1', link: '/Typescript/TS-TYPE-CODE.md' },
           { text: 'ts2', link: '/Typescript/深入理解Typescript.md' }
           // { text: 'Markdown Examples', link: '/docs/articles/markdown-examples.md' },
           // { text: 'Runtime API Examples', link: '/api-examples' }
