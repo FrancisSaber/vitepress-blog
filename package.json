@@ -4,8 +4,8 @@
   },
   "scripts": {
     "start": "vitepress dev docs",
-    "docs:dev": "vitepress  docs",
-    "docs:build": "vitepress build",
+    "docs:dev": "vitepress docs",
+    "build": "vitepress build docs",
     "docs:preview": "vitepress preview --port 4173"
   }
 }
