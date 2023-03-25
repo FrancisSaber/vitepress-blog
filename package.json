@@ -6,6 +6,6 @@
     "start": "vitepress dev docs",
     "docs:dev": "vitepress docs",
     "build": "vitepress build docs",
-    "docs:preview": "vitepress preview --port 4173"
+    "docs:preview": "vitepress preview docs --port 4173"
   }
 }
