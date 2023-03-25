@@ -10,15 +10,17 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Typescript', link: '/Typescript' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Typescript',
         items: [
-          { text: 'Markdown Examples', link: '/docs/articles/markdown-examples.md' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Home', link: '/Typescript/TS-TYPE-CODE.md' },
+          { text: 'ts2', link: '/Typescript/深入理解Typescript.md' }
+          // { text: 'Markdown Examples', link: '/docs/articles/markdown-examples.md' },
+          // { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       }
     ],
