@@ -1,3 +1,9 @@
+# 脚本
+
+  <a href="https://github.com/FrancisSaber/SSG-Blog/blob/master/.github/workflows/deploy.yml">
+  <img alt="Deploy to AWS Elastic Beanstalk" src="https://github.com/FrancisSaber/SSG-Blog/blob/master/.github/public/bh3.JPG">
+</a>
+
 # 文档
 
 [官网](https://vitepress.dev/)
