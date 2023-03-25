@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "My Awesome Project",
   description: "A VitePress Site",
+  // outDir: '/dist',
   // base: '/SSG-Blog/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -16,7 +17,7 @@ export default defineConfig({
       {
         text: 'Examples',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
+          { text: 'Markdown Examples', link: '/docs/articles/markdown-examples.md' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       }
