@@ -10,7 +10,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Typescript', link: '/Typescript/TS-TYPE-CODE.md' }
+      { text: 'Typescript', link: '/Typescript/TS-TYPE-CODE.md' },
+      { text: 'Git', link: 'Git/index.md' }
     ],
 
     sidebar: [
