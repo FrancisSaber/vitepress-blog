@@ -11,7 +11,8 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Typescript', link: '/Typescript/TS-TYPE-CODE.md' },
-      { text: 'Git', link: 'Git/index.md' }
+      { text: 'Git', link: 'Git/index.md' },
+      { text: 'NestJS', link: 'NestJS/Nest.md' }
     ],
 
     sidebar: [
@@ -20,6 +21,15 @@ export default defineConfig({
         items: [
           { text: '类型编程', link: '/Typescript/TS-TYPE-CODE.md' },
           { text: '深入理解Typescript', link: '/Typescript/深入理解Typescript.md' }
+          // { text: 'Markdown Examples', link: '/docs/articles/markdown-examples.md' },
+          // { text: 'Runtime API Examples', link: '/api-examples' }
+        ]
+      },
+      {
+        text: 'NestJS',
+        items: [
+          { text: '笔记1', link: '/NestJS/Nest.md' },
+          { text: '笔记2', link: '/NestJS/README.md' }
           // { text: 'Markdown Examples', link: '/docs/articles/markdown-examples.md' },
           // { text: 'Runtime API Examples', link: '/api-examples' }
         ]
