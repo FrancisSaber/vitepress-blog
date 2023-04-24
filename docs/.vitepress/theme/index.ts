@@ -1,16 +1,16 @@
-// https://vitepress.dev/guide/custom-theme
+import DefaultTheme from 'vitepress/theme'
+import MyLayout from './MyLayout.vue'
+// import VueCalendarHeatmap from 'vue3-calendar-heatmap'
+import './custom.css'
 import { h } from 'vue'
-import Theme from 'vitepress/theme'
-import './style.css'
 
 export default {
-  ...Theme,
-  Layout: () => {
-    return h(Theme.Layout, null, {
-      // https://vitepress.dev/guide/extending-default-theme#layout-slots
-    })
-  },
+  ...DefaultTheme,
+  // override the Layout with a wrapper component that
+  // injects the slots
+  Layout: MyLayout,
   enhanceApp({ app, router, siteData }) {
-    // ...
+    // app.use(VueCalendarHeatmap)
+    // register global components=
   }
 }

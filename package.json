@@ -1,11 +1,17 @@
 {
   "devDependencies": {
+    "js-yaml": "^4.1.0",
     "vitepress": "1.0.0-alpha.61"
   },
   "scripts": {
+    "rd": "node read.js",
     "start": "vitepress dev docs",
     "docs:dev": "vitepress docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs --port 4173"
+  },
+  "dependencies": {
+    "gitalk": "^1.8.0",
+    "ml-heatmap": "^0.0.6"
   }
 }
