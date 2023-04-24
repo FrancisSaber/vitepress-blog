@@ -532,5 +532,22 @@ export default {
                 link: 'write/NestJS/README'
             }
         ]
+    }],
+    'write/framework/': [{
+        title: "前端框架",
+        link: "/",
+        collapsable: false,
+        items: [
+            {
+                text: 'Vue3知识点',
+                title: 'Vue3知识点',
+                link: 'write/framework/Vue/Vue3已忘功能'
+            },
+            {
+                text: 'Nuxt',
+                title: 'Nuxt',
+                link: 'write/framework/Nuxt/nuxt'
+            }
+        ]
     }]
 }
