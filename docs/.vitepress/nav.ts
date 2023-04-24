@@ -1,6 +1,6 @@
 export default [
     { text: "首页", link: "/" },
-    { text: "categories", link: "/categories" },
+    // { text: "categories", link: "/categories" },
     {
         text: "文档",
         items: [

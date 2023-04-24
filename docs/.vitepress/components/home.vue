@@ -75,7 +75,7 @@ if (typeof window !== undefined) {
         </div>
         <div>
           <h3 class="docs-types">分类</h3>
-          <a v-for="(num, k) in categories" :key="k" class="docs-categor docs" :href="`/categories?cat=${k}&type=cat`"
+          <a v-for="(num, k) in categories" :key="k" class="docs-categor docs" :href="`/vitepress-blog/categories?cat=${k}`"
             target="_blank">
             <span>{{ k }}</span>
             <span class="docs-categor-num" :style="{ backgroundColor: CLORS[Math.floor(Math.random() * 4)] }">
@@ -86,7 +86,7 @@ if (typeof window !== undefined) {
         <div>
           <h3 class="docs-types">标签</h3>
           <a v-for="t in tags" :key="t" class="docs-tags"
-            :style="{ backgroundColor: CLORS[Math.floor(Math.random() * 4)] }" :href="`/categories?tag=${t}&type=tag`"
+            :style="{ backgroundColor: CLORS[Math.floor(Math.random() * 4)] }" :href="`/vitepress-blog/categories?tag=${t}&type=tag`"
             target="_blank">
             <div>{{ t }}</div>
           </a>

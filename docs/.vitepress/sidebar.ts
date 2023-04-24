@@ -500,14 +500,19 @@ export default {
         ]
     }],
     'write/Typescript/': [{
-        title: "Git",
+        title: "Typescript",
         link: "/",
         collapsable: false,
         items: [
             {
-                text: 'Git笔记',
-                title: 'Git笔记',
-                link: 'write/index'
+                text: 'Typescript类型编程',
+                title: 'Typescript类型编程',
+                link: 'write/Typescript/TS-TYPE-CODE'
+            },
+            {
+                text: '深入理解Typescript',
+                title: '深入理解Typescript',
+                link: 'write/Typescript/深入理解Typescript'
             }
         ]
     }],

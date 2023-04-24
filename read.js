@@ -20,7 +20,7 @@ function readAll(parentPath) {
         re.lastIndex = 0
         if (s) {
           let docs = yaml.load(s[1])
-          docs.link = tempPath.slice(4, -3)
+          docs.link = '\\vitepress-blog' + tempPath.slice(4, -3)
           out.push(docs);
         }
       }
@@ -31,7 +31,7 @@ function readAll(parentPath) {
   }
 }
 readAll('./docs/write')
-
+// console.log(out);
 const filePath = 'docs/.vitepress/components/docs.json';
 fs.writeFileSync(
   filePath,
